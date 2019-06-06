@@ -1,3 +1,27 @@
+# two sum
+## brute force
+``` java
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        
+        for(int i=0;i<nums.length;i++)
+            for(int j=i+1;j<nums.length;j++)
+                if(nums[j]==target -nums[i]){
+                    System.out.println(i+","+j);            
+                    return new int []{i,j};
+                }
+        return nums;
+        
+    }
+}
+```
+time complexity:O(n^2)
+space complexity:O(n)
+## one-pass hash table
+
+O(n)
+O(n)
+# 
 You’re Not Meant to Do What You Love
 You’re meant to do what you’re good at
 
@@ -61,3 +85,7 @@ There’s more to your life than just what you think will make you happy. Your r
 
 You are doing what you came here to do.
 你正在做你来这里做的事。
+
+# tips
+
+# share
