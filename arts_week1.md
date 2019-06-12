@@ -19,8 +19,9 @@ time complexity:O(n^2)
 space complexity:O(n)
 ## one-pass hash table
 
-O(n)
-O(n)
+时间复杂度：O(n)
+空间复杂度：O(n)
+
 # 
 You’re Not Meant to Do What You Love
 You’re meant to do what you’re good at
@@ -87,5 +88,25 @@ You are doing what you came here to do.
 你正在做你来这里做的事。
 
 # tips
+## git 常用命令
+- git关联远程仓库
+git remote add coding https://e.coding.net/rateyu/arts.git
+- 提交art1版本给远程
+git push coding art1
+- 查看远程版本
+git remote -vv
+- 查看本地版本
 
 # share
+
+## 高并发总览
+- 高并发的原因
+- 缓存可见性/线程原子性/编译器的有序性
+- java内存模型：volatile/final/sychronized,happen before
+- 互斥锁
+
+## 性能调优总览
+- 性能测试
+- 性能问题：资源/容器/jvm/网络/应用服务
+- 调优：应用/系统/策略（时间空间）
+- 其他：限流，扩容
