@@ -96,6 +96,9 @@ git push coding art1
 - 查看远程版本
 git remote -vv
 - 查看本地版本
+git branch 
+- 比较本地和远程版本
+git diff art1 coding/art1
 
 # share
 
