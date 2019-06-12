@@ -103,8 +103,9 @@ git diff art1 coding/art1
 # share
 
 ## 高并发总览
-- 高并发的原因
+### 高并发的原因:
 - 缓存可见性/线程原子性/编译器的有序性
+## java中的应对
 - java内存模型：volatile/final/sychronized,happen before
 - 互斥锁
 
